@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ticket Purchase</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:wght@400;600&family=Roboto+Condensed:wght@400;700&family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
+    <script async src="js/script.js"></script>
+  </head>
+
+  <body id="index-page" class="fixed-page">
+    <header>
+      <nav  id="main-navbar">
+        <div id="navbar-container">
+          <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li id="onpage"><a href="purchase.html">Tickets</a></li>
+            <li><a href="dates.html">2024 Tour Dates</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>Tickets:</h1>
+      <form  id="form" method="POST" action="#null" autocomplete="on">
+        <fieldset>
+          <legend class="main_legend">Sign Up</legend>
+          <div>
+            <label>Username <input type="text" name="text_field" placeholder="Name" required></label>
+         </div>
+          <div>
+             <label>Email: <input type="text" name="text_field" placeholder="Email" required></label>
+          </div>
+          <div>
+            <label>Password: 
+              <input type="password" id="password" placeholder="Password" minlength="8" maxlength="64">
+            </label>
+          </div>
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
