@@ -102,3 +102,21 @@ body {
     padding: 20px 0;
   }
   
+  /* media  */
+@media screen and (max-width: 768px) {
+    .container {
+      margin: 10px;
+      padding: 10px;
+    }
+    .movie_picture {
+      margin: 10px;
+      padding: 10px;
+    }
+    .movie_picture img {
+      max-width: 100%;
+    }
+    .movie_description {
+      margin: 10px;
+      padding: 10px;
+    }
+  }
