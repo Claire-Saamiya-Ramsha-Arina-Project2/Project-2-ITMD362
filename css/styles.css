@@ -12,30 +12,41 @@ header {
   padding: 10px 0;
 }
 
+#main-navbar {
+  overflow: hidden;
+}
+
 #navbar-container {
   float: left;
   width: 100%;
   position: relative;
-}
-
-#main-navbar {
-  overflow: hidden;
 }
   
 #main-navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
 }
   
 #main-navbar ul li {
-  display: inline;
-  margin-right: 20px;
+  float: left;
+  position: relative;
+  display: inline-block;
+  right: 50%;
 }
   
 #main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
   color: white;
   text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #00000;
 }
   
 .container {
