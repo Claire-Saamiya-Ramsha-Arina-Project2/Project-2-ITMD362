@@ -1,13 +1,13 @@
 #dates {
-  background-color: #000000;
+  background-color: black;
 }  
 
 #index {
-  background-color: #000000;
+  background-color: black;
 }  
 
 #purchase {
-  background-color: #000000;
+  background-color: black;
 }  
 
 body {
@@ -58,7 +58,7 @@ header {
 }
 
 #main-navbar ul li a:hover {
-  background-color: #000000;
+  background-color: black;
 }
   
 .container {
