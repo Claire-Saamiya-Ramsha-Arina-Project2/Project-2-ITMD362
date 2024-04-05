@@ -27,6 +27,10 @@ body {
     color: white;
     text-decoration: none;
   }
+
+  #main-navbar ul li#onpage a {
+    color: yellow; /* highlight link */
+  }
   
   .container {
     margin: 20px;
@@ -76,7 +80,7 @@ body {
     background-color: red;
   }
   
-  .movie_picture {
+  .movie_picture, .movie_description {
     background-color: #f8f8f8;
     padding: 20px;
     margin: 20px;
@@ -89,12 +93,6 @@ body {
     height: auto;
   }
   
-  .movie_description {
-    background-color: #f8f8f8;
-    padding: 20px;
-    margin: 20px;
-  }
-  
   footer {
     background-color: darkred;
     color: white;
@@ -104,19 +102,11 @@ body {
   
   /* media  */
 @media screen and (max-width: 768px) {
-    .container {
-      margin: 10px;
-      padding: 10px;
-    }
-    .movie_picture {
+    .container, .movie_picture, .movie_description {
       margin: 10px;
       padding: 10px;
     }
     .movie_picture img {
       max-width: 100%;
-    }
-    .movie_description {
-      margin: 10px;
-      padding: 10px;
     }
   }
