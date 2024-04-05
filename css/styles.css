@@ -17,6 +17,10 @@ header {
   width: 100%;
   position: relative;
 }
+
+#main-navbar {
+  overflow: hidden;
+}
   
 #main-navbar ul {
   list-style-type: none;
