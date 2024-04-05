@@ -80,7 +80,13 @@ body {
     background-color: red;
   }
   
-  .movie_picture, .movie_description {
+  .movie_picture {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .movie_description {
     background-color: #f8f8f8;
     padding: 20px;
     margin: 20px;
