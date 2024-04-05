@@ -5,4 +5,3 @@ document.addEventListener('DOMContentLoaded', function() {
         span.style.visibility = (span.style.visibility === 'hidden' ? 'visible' : 'hidden');
     }, 700);
 });
-
