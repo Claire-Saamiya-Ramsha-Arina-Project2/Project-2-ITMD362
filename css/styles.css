@@ -11,6 +11,12 @@ body {
     color: white;
     padding: 10px 0;
   }
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
   
   #main-navbar ul {
     list-style-type: none;
