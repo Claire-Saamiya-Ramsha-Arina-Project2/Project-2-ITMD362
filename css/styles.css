@@ -1,3 +1,15 @@
+#dates {
+  background-color: #000000;
+}  
+
+#index {
+  background-color: #000000;
+}  
+
+#purchase {
+  background-color: #000000;
+}  
+
 body {
   font-family: 'Noto Sans', sans-serif;
   margin: 0;
@@ -46,7 +58,7 @@ header {
 }
 
 #main-navbar ul li a:hover {
-  background-color: #00000;
+  background-color: #000000;
 }
   
 .container {
