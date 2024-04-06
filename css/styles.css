@@ -126,6 +126,7 @@ header {
 }
   
 #main-navbar ul li {
+  float: left;
   position: relative;
   display: inline-block;
   right: 50%;
