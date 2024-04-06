@@ -11,45 +11,45 @@
 }  
 
 body {
-    font-family: 'Noto Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    color: black;
-  }
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
   
-  header {
-    background-color: red;
-    color: white;
-    padding: 10px 0;
-  }
+header {
+  background-color: red;
+  color: white;
+  padding: 10px 0;
+}
   
-  h1 {
-    font-weight: bold;
-    font-size: 4.236em;
-    padding: 15px;
-    line-height: 1.4em;
-    color: #000000;
-    text-align: center;
-    background-repeat: no-repeat;
-    margin: 1%;
-  }
+h1 {
+  font-weight: bold;
+  font-size: 4.236em;
+  padding: 15px;
+  line-height: 1.4em;
+  color: #000000;
+  text-align: center;
+  background-repeat: no-repeat;
+  margin: 1%;
+}
 
-  #main-navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
   
-  #main-navbar ul li {
-    display: inline;
-    margin-right: 20px;
-  }
+#main-navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
   
-  #main-navbar ul li a {
-    color: white;
-    text-decoration: none;
-  }
+#main-navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
 
 main {
   font-family: 'Noto Sans', sans-serif;
@@ -126,10 +126,10 @@ header {
 }
   
 #main-navbar ul li {
-  float: right;
+  float: left;
   position: relative;
   display: inline-block;
-  right: 50%;
+  left: 50%;
 }
   
 #main-navbar ul li a {
