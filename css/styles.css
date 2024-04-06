@@ -126,7 +126,7 @@ header {
 }
   
 #main-navbar ul li {
-  float: left;
+  float: right;
   position: relative;
   display: inline-block;
   right: 50%;
@@ -196,7 +196,6 @@ input[type="submit"]:hover {
   background-color: #f8f8f8;
   padding: 20px;
   margin: 20px;
-  text-align: center;
 }
   
 .movie_picture img {
