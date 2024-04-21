@@ -11,6 +11,40 @@
 }  
 
 body {
+    font-family: 'Noto Sans', Arial, sans-serif; /* arial as fallback? */
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+  }
+  
+  header {
+    background-color: red;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  #main-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #main-navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #main-navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #main-navbar ul li#onpage a {
+    color: yellow; /* highlight link */
+  }
+
+main {
   font-family: 'Noto Sans', sans-serif;
   margin: 0;
   padding: 0;
@@ -219,13 +253,22 @@ footer {
 
   /* media  */
 @media screen and (max-width: 768px) {
-	
   .container {
     margin: 10px;
     padding: 10px;
   }
   
   .movie_picture {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .movie_description {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
     margin: 10px;
     padding: 10px;
   }
@@ -234,8 +277,50 @@ footer {
     max-width: 100%;
   }
   
+  footer {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* media  */
+@media screen and (min-width: 769px) {
+    .container, .movie_picture, .movie_description {
+      margin: 20px;
+      padding: 20px;
+    }
+    .movie_picture img {
+      max-width: 100%;
+    }
   .movie_description {
     margin: 10px;
     padding: 10px;
   }
-}
+  }
+
+/* additional min width quieries */
+  @media screen and (min-width: 1024px){
+    body{
+      font-size: 18px; /* styling for larger screens */
+    }
+  }
+
+  @media screen and (min-width: 1280px){
+    header {
+      padding: 20px; /* increase header */
+    }
+    .conatiner{
+      max-width: 1200px; /* increase readability, limit container */
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    footer {
+      padding: 30px 0; /* increase footer padding */
+    }
+    .movie_picture {
+      margin: 30px; /* increase margin around picture */
+    }
+  }
