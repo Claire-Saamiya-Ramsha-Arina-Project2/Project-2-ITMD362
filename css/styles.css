@@ -227,11 +227,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: red;
 }
-
-.tour-title {
-  color: gold;
-  font-size: 32px;
-}
   
 .movie_picture {
   background-color: #f8f8f8;
