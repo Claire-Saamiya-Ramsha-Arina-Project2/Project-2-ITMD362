@@ -235,10 +235,12 @@ input[type="submit"]:hover {
 }
   
 .movie_picture img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   max-width: 400px;
   height: auto;
-  text-align: center;
 }
   
 .movie_description {
