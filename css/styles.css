@@ -228,7 +228,7 @@ input[type="submit"]:hover {
   background-color: red;
 }
 
-tour-title {
+.tour-title {
   color: gold;
   font-size: 32px;
 }
