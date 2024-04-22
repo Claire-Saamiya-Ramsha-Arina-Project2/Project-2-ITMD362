@@ -142,6 +142,8 @@ header {
 
 #main-navbar {
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 #navbar-container {
