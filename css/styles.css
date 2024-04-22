@@ -253,6 +253,7 @@ input[type="submit"]:hover {
   width: 100%;
   height: 400px;
   position: relative;
+  overflow: hidden;
 }
 
 .listofmovies {
@@ -261,6 +262,7 @@ input[type="submit"]:hover {
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
 }
 
 footer {
