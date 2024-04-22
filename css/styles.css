@@ -236,12 +236,14 @@ input[type="submit"]:hover {
   width: 100%;
   max-width: 400px;
   height: auto;
+  text-align: center;
 }
   
 .movie_description {
   background-color: #f8f8f8;
   padding: 20px;
   margin: 20px;
+  text-align: center;
 }
   
 footer {
