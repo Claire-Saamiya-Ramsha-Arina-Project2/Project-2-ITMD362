@@ -155,6 +155,10 @@ input[type="submit"]:hover {
   width: auto;
   height: auto;
 }
+
+#title {
+  font-size: 32px;
+}
   
 .movie_description {
   background-color: #f8f8f8;
