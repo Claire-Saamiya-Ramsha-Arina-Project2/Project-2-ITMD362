@@ -81,6 +81,15 @@ header {
   color: white;
   padding: 10px 0;
 }
+
+button {
+  text-align: center;
+  font-size: 0.900em;
+  color: #000000;
+  margin: 1%;
+  float: right;
+}
+
   
 h1 {
   font-weight: bold;
@@ -266,4 +275,4 @@ footer {
     .movie_picture {
       margin: 30px; /* increase margin around picture */
     }
-}
+  }
