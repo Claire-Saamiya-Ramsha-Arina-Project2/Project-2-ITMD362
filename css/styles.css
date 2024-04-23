@@ -225,6 +225,7 @@ footer {
     text-align: center;
     padding: 20px 0;
   }
+}  
   
   /* media  */
 @media screen and (min-width: 769px) {
@@ -239,7 +240,7 @@ footer {
     margin: 10px;
     padding: 10px;
   }
-  }
+}
 
 /* additional min width quieries */
   @media screen and (min-width: 1024px){
@@ -265,4 +266,4 @@ footer {
     .movie_picture {
       margin: 30px; /* increase margin around picture */
     }
- }
+}
