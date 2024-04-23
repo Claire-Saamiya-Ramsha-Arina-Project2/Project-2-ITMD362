@@ -6,3 +6,20 @@ var t = setInterval(function () {
 
 /// taking user back to the top
 const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'});
+
+/// will show image of movies automatically
+
+var slideIndex = 0;
+carousel(); /// allows to show content via slideshow
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("listofMovies");
+  for (i=0; i < x.length; i++){
+	x[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex=1}
+  x[slideIndex-1].style.display = "block"; /// display is block
+  setTimeout(carousel, 1500); /// images will change every 1.5 seconds
+}
