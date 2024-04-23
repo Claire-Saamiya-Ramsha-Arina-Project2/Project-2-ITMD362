@@ -157,7 +157,8 @@ input[type="submit"]:hover {
 }
 
 #title {
-  font-size: 32px;
+  font-size: 28px;
+  color: white;
 }
   
 .movie_description {
