@@ -163,7 +163,7 @@ input[type="submit"]:hover {
   text-align: center;
 }
  
-#title {
+.title {
   font-size: 28px;
   color: #FFFFFF;
 } 
