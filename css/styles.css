@@ -190,11 +190,6 @@ input[type="submit"]:hover {
   display: flex;
 }
 
-.listofmovies img {
-  width: 100%;
-  height: auto;
-}
-
 footer {
   background-color: darkred;
   color: white;
