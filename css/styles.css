@@ -24,20 +24,44 @@ header {
   padding: 10px 0;
 }
   
+#main-navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul li a:hover {
+  background-color: black;
+}
+
 #main-navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
 }
   
 #main-navbar ul li {
-  display: inline;
+  display: block;
   margin-right: 20px;
+  float: left;
+  position: relative;
+  left: 50%;
 }
   
 #main-navbar ul li a {
   color: white;
   text-decoration: none;
+  display: block;
+  padding: 10px 20px;
 }
 
 #main-navbar ul li#onpage a {
@@ -67,116 +91,6 @@ h1 {
   text-align: center;
   background-repeat: no-repeat;
   margin: 1%;
-}
-
-#main-navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-  
-#main-navbar ul li {
-  display: block;
-  margin-right: 20px;
-}
-  
-#main-navbar ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-main {
-  font-family: 'Noto Sans', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  color: white;
-}
-  
-header {
-  background-color: red;
-  color: white;
-  padding: 10px 0;
-}
-  
-h1 {
-  font-weight: bold;
-  font-size: 4.236em;
-  padding: 15px;
-  line-height: 1.4em;
-  color: #000000;
-  text-align: center;
-  background-repeat: no-repeat;
-  margin: 1%;
-}
-
-#main-navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-  
-#main-navbar ul li {
-  display: inline;
-  margin-right: 20px;
-}
-  
-#main-navbar ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-main {
-  font-family: 'Noto Sans', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  color: black;
-}
-  
-header {
-  background-color: red;
-  color: black;
-  padding: 10px 0;
-}
-
-#main-navbar {
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
-
-#navbar-container {
-  float: left;
-  width: 100%;
-  position: relative;
-}
-  
-#main-navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: 50%;
-  float: left;
-}
-  
-#main-navbar ul li {
-  float: left;
-  position: relative;
-  display: inline-block;
-  left: 50%;
-}
-  
-#main-navbar ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: white;
-  text-decoration: none;
-}
-
-#main-navbar ul li a:hover {
-  background-color: black;
 }
   
 .container {
@@ -328,7 +242,7 @@ footer {
     }
   }
 
-  @media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px){
     header {
       padding: 20px; /* increase header */
     }
