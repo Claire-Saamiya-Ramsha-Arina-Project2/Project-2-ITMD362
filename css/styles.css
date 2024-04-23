@@ -155,11 +155,6 @@ input[type="submit"]:hover {
   width: auto;
   height: auto;
 }
-
-#title {
-  font-size: 28px;
-  color: #000000;
-}
   
 .movie_description {
   background-color: #f8f8f8;
@@ -167,6 +162,11 @@ input[type="submit"]:hover {
   margin: 20px;
   text-align: center;
 }
+ 
+#title {
+  font-size: 28px;
+  color: #000000;
+} 
  
 .movie-slider {
   width: 100%;
