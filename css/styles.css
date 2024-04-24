@@ -172,7 +172,7 @@ input[type="submit"]:hover {
  
 #title {
   text-align: center;
-  font-size: 28px;
+  font-size: 20px;
   background-color: #f8f8f8;
   color: white;
   padding: 20px;
@@ -183,14 +183,14 @@ input[type="submit"]:hover {
   width: 100%;
   overflow: hidden;
   background-color: #610000;
-  justify-content: center;
-  align-content: center;
 }
 
 .listofMovies {
   width: 350px;
   height: 500px;
   margin-right: 20px;
+  justify-content: center;
+  align-content: center;
 }
 
 .listofmovies {
@@ -198,7 +198,9 @@ input[type="submit"]:hover {
 }
 
 #tour {
-  border-style: dotted;
+  border: 2px dotted;  
+  border-radius: 8px;
+  padding: 5px;
   border-width: thick;
   border-color: #61000;
 }
