@@ -178,15 +178,17 @@ input[type="submit"]:hover {
 } 
  
 .movie-slider {
-  width: 400px;
-  height: 500px;
-  position: relative;
+  width: 100%;
   overflow: hidden;
 }
 
-.listofmovies {
-  width: 350px;
+.listofMovies {
+  width: 400px;
   height: 450px;
+  margin-right: 20px;
+}
+
+.listofmovies {
   display: flex;
 }
 
