@@ -172,7 +172,7 @@ input[type="submit"]:hover {
  
 #title {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   background-color: #f8f8f8;
   color: #610000;
   padding: 20px;
@@ -205,8 +205,17 @@ input[type="submit"]:hover {
   border-color: #610000;
 }
 
+.datesoftour{
+  text-align:left;	
+}
 
+.movielist{
+  text-align: center;	
+}
 
+.location {
+  text-align: center;	
+}
 
 footer {
   background-color: darkred;
