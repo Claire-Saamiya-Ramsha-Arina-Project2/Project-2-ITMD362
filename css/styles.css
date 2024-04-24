@@ -45,20 +45,17 @@ header {
   margin: 0;
   padding: 0;
   position: relative;
-  left: 50%;
-  float: left;
+  text-align:center;
 }
   
 #main-navbar ul li {
   display: block;
   margin-right: 20px;
-  float: left;
 }
   
 #main-navbar ul li a {
   color: white;
   text-decoration: none;
-  display: block;
   padding: 10px 20px;
 }
 
