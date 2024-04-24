@@ -28,8 +28,6 @@ header {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  left: 50%;
-  top: 50%;
 }
 
 #navbar-container {
@@ -55,8 +53,6 @@ header {
   display: block;
   margin-right: 20px;
   float: left;
-  position: absolute;
-
 }
   
 #main-navbar ul li a {
@@ -175,8 +171,10 @@ input[type="submit"]:hover {
 }
  
 .title {
+  text-align: center;
   font-size: 28px;
   background-color: #f8f8f8;
+  padding: 20px;
 } 
  
 .movie-slider {
