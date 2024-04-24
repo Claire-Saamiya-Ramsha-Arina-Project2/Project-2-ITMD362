@@ -170,7 +170,7 @@ input[type="submit"]:hover {
   text-align: center;
 }
  
-.title {
+#title {
   text-align: center;
   font-size: 28px;
   background-color: #f8f8f8;
@@ -195,6 +195,12 @@ input[type="submit"]:hover {
 
 .listofmovies {
   display: flex;
+}
+
+#tour {
+  border-style: dotted;
+  border-width: thick;
+  border-color: #61000;
 }
 
 footer {
