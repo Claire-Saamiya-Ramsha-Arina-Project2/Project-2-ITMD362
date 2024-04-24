@@ -186,6 +186,8 @@ input[type="submit"]:hover {
   width: 100%;
   overflow: hidden;
   background-color: #610000;
+  justify-content: center;
+  align-content: center;
 }
 
 .listofMovies {
@@ -196,11 +198,9 @@ input[type="submit"]:hover {
 
 .listofmovies {
   display: flex;
-  justify-content: center;
-  align-content: center;
 }
 
-#tour {
+.tour {
   border: 2px dotted;  
   border-radius: 8px;
   padding: 5px;
@@ -209,15 +209,36 @@ input[type="submit"]:hover {
 }
 
 .datesoftour{
+  background-color: white;	
   text-align:left;	
 }
 
+.datesoftour h2 {
+  font-size: 14px;
+  text-align: center;
+  text-shadow: 1px 1px 2px red;  
+}
+
 .movielist{
+  background-color: #610000;	
   text-align: center;	
 }
 
+.movielist h2 {
+  font-size: 14px;
+  text-align: center;
+  text-shadow: 1px 1px 2px white;
+}
+
 .location {
+  background-color: white;	
   text-align: center;	
+}
+
+.location h2 {
+  font-size: 14px;
+  text-align: center;
+  text-shadow: 1px 1px 2px red;	
 }
 
 footer {
