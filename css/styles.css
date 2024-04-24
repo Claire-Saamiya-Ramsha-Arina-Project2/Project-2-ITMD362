@@ -174,9 +174,12 @@ input[type="submit"]:hover {
   text-align: center;
   font-size: 18px;
   background-color: #f8f8f8;
-  color: #610000;
   padding: 20px;
   margin: 20px;
+} 
+ 
+#title h1 {
+  color: #610000;	
 } 
  
 .movie-slider {
@@ -197,7 +200,7 @@ input[type="submit"]:hover {
   align-content: center;
 }
 
-.tour {
+#tour {
   border: 2px dotted;  
   border-radius: 8px;
   padding: 5px;
