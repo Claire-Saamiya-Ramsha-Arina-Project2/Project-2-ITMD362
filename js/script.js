@@ -20,6 +20,6 @@ function carousel() {
   }
   slideIndex++;
   if (slideIndex > x.length) {slideIndex=4}
-  x[slideIndex-1].style.display = "block"; /// display is block
+  x[slideIndex-3].style.display = "block"; /// display is block
   setTimeout(carousel, 3500); /// images will change every 3.5 seconds
 }
