@@ -176,12 +176,15 @@ input[type="submit"]:hover {
   background-color: #f8f8f8;
   color: white;
   padding: 20px;
+  margin: 20px;
 } 
  
 .movie-slider {
   width: 100%;
   overflow: hidden;
   background-color: #610000;
+  justify-content: center;
+  align-content: center;
 }
 
 .listofMovies {
