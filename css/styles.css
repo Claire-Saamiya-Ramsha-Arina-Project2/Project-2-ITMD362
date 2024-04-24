@@ -174,7 +174,7 @@ input[type="submit"]:hover {
   text-align: center;
   font-size: 20px;
   background-color: #f8f8f8;
-  color: white;
+  color: #610000;
   padding: 20px;
   margin: 20px;
 } 
@@ -197,13 +197,16 @@ input[type="submit"]:hover {
   display: flex;
 }
 
-#tour {
+.tour {
   border: 2px dotted;  
   border-radius: 8px;
   padding: 5px;
   border-width: thick;
   border-color: #61000;
 }
+
+
+
 
 footer {
   background-color: darkred;
