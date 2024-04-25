@@ -224,7 +224,7 @@ input[type="submit"]:hover {
 }
 
 .datesoftour{	
-  background-color: white;		
+  background-color: #f8f8f8;		
   margin-top: 20px;
   padding: 10px;
 }
@@ -244,7 +244,7 @@ input[type="submit"]:hover {
 }
 
 .location {
-  background-color: white;	
+  background-color: #f8f8f8;	
   margin-top: 20px;
   padding: 10px;  
   border-radius: 8px;
