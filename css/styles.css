@@ -223,34 +223,43 @@ input[type="submit"]:hover {
   margin: 5px 0;
 }
 
-.datesoftour{	
+#datesoftour,
+#movielist,
+#location{
+  border: 2px dotted #61000;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 15px;  
+}
+
+#datesoftour{	
   background-color: #f8f8f8;		
   margin-top: 20px;
   padding: 10px;
 }
 
-.datesoftour h2 {
+#datesoftour h2 {
   text-shadow: red 1px 10px;  
 }
 
-.movielist{
+#movielist{
   background-color: #610000;	
   padding: 10px;
   margin-top: 20px;
 }
 
-.movielist h2 {
+#movielist h2 {
   text-shadow: 1px 1px 2px white;
 }
 
-.location {
+#location {
   background-color: #f8f8f8;	
   margin-top: 20px;
   padding: 10px;  
   border-radius: 8px;
 }
 
-.location h2 {
+#location h2 {
   text-shadow: 1px 1px 2px red;	
 }
 
