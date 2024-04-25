@@ -291,13 +291,13 @@ footer {
   
   /* media  */
 @media screen and (min-width: 769px) {
-    .container, .movie_picture, .movie_description {
-      margin: 20px;
-      padding: 20px;
-    }
-    .movie_picture img {
-      max-width: 100%;
-    }
+  .container, .movie_picture, .movie_description {
+    margin: 20px;
+    padding: 20px;
+  }
+  .movie_picture img {
+    max-width: 100%;
+  }
   .movie_description {
     margin: 10px;
     padding: 10px;
@@ -305,27 +305,27 @@ footer {
 }
 
 /* additional min width quieries */
-  @media screen and (min-width: 1024px){
-    body{
-      font-size: 18px; /* styling for larger screens */
-    }
-  }
+@media screen and (min-width: 1024px){
+  body{
+    font-size: 18px; /* styling for larger screens */
+   }
+}
 
 @media screen and (min-width: 1280px){
-    header {
-      padding: 20px; /* increase header */
+  header {
+    padding: 20px; /* increase header */
     }
-    .container{
-      max-width: 1200px; /* increase readability, limit container */
-      margin: 0 auto;
-    }
+  .container{
+    max-width: 1200px; /* increase readability, limit container */
+    margin: 0 auto;
   }
+}
 
- @media screen and (min-width: 1440px) {
-    footer {
-      padding: 30px 0; /* increase footer padding */
-    }
-    .movie_picture {
-      margin: 30px; /* increase margin around picture */
-    }
+@media screen and (min-width: 1440px) {
+  footer {
+    padding: 30px 0; /* increase footer padding */
   }
+  .movie_picture {
+    margin: 30px; /* increase margin around picture */
+  }
+}
