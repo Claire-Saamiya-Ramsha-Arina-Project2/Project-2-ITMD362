@@ -174,15 +174,20 @@ input[type="submit"]:hover {
   text-align: center;
   font-size: 18px;
   background-color: #f8f8f8;
-  color: #610000;
   padding: 20px;
   margin: 20px;
+} 
+ 
+#title h1 {
+  color: #610000;	
 } 
  
 .movie-slider {
   width: 100%;
   overflow: hidden;
   background-color: #610000;
+  justify-content: center;
+  align-content: center;
 }
 
 .listofMovies {
@@ -193,28 +198,79 @@ input[type="submit"]:hover {
 
 .listofmovies {
   display: flex;
-  justify-content: center;
-  align-content: center;
 }
 
 .tour {
   border: 2px dotted;  
   border-radius: 8px;
-  padding: 5px;
+  padding: 20px;
   border-width: thick;
   border-color: #610000;
 }
 
-.datesoftour{
-  text-align:left;	
+.tour h2{
+  text-align: center;	
+  font-size: 28px;
+  margin-bottom: 10px;  
 }
 
-.movielist{
-  text-align: center;	
+.tour h4 {
+  text-align: center;	 
+  font-size: 22px;
+  margin-top: 5px;
 }
 
-.location {
-  text-align: center;	
+.tour h6 {
+  text-align: center;	 
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.tour p {
+  text-align:center;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+#datesoftour,
+#movielist,
+#location{
+  border: 2px dotted #61000;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 15px;  
+}
+
+#datesoftour{	
+  background-color: #f8f8f8;		
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#datesoftour h2 {
+  text-shadow: 1px 1px 2px red;  
+}
+
+#movielist{
+  color: #f8f8f8;
+  background-color: #610000;	
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#movielist h2 {
+  text-shadow: 1px 1px 2px red;
+}
+
+#location {
+  background-color: #f8f8f8;	
+  margin-top: 20px;
+  padding: 10px;  
+  border-radius: 8px;
+}
+
+#location h2 {
+  text-shadow: 1px 1px 2px red;	
 }
 
 footer {
@@ -260,13 +316,13 @@ footer {
   
   /* media  */
 @media screen and (min-width: 769px) {
-    .container, .movie_picture, .movie_description {
-      margin: 20px;
-      padding: 20px;
-    }
-    .movie_picture img {
-      max-width: 100%;
-    }
+  .container, .movie_picture, .movie_description {
+    margin: 20px;
+    padding: 20px;
+  }
+  .movie_picture img {
+    max-width: 100%;
+  }
   .movie_description {
     margin: 10px;
     padding: 10px;
@@ -274,27 +330,27 @@ footer {
 }
 
 /* additional min width quieries */
-  @media screen and (min-width: 1024px){
-    body{
-      font-size: 18px; /* styling for larger screens */
-    }
-  }
+@media screen and (min-width: 1024px){
+  body{
+    font-size: 18px; /* styling for larger screens */
+   }
+}
 
 @media screen and (min-width: 1280px){
-    header {
-      padding: 20px; /* increase header */
+  header {
+    padding: 20px; /* increase header */
     }
-    .container{
-      max-width: 1200px; /* increase readability, limit container */
-      margin: 0 auto;
-    }
+  .container{
+    max-width: 1200px; /* increase readability, limit container */
+    margin: 0 auto;
   }
+}
 
- @media screen and (min-width: 1440px) {
-    footer {
-      padding: 30px 0; /* increase footer padding */
-    }
-    .movie_picture {
-      margin: 30px; /* increase margin around picture */
-    }
+@media screen and (min-width: 1440px) {
+  footer {
+    padding: 30px 0; /* increase footer padding */
   }
+  .movie_picture {
+    margin: 30px; /* increase margin around picture */
+  }
+}
