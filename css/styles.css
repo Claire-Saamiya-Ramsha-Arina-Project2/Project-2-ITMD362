@@ -53,9 +53,9 @@ header {
 }
   
 #main-navbar ul li a {
-  display: block;
   color: white;
   text-decoration: none;
+  display: block;
   padding: 10px 20px;
 }
 
