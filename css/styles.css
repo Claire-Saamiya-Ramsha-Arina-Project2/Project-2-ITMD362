@@ -45,11 +45,14 @@ header {
   margin: 0;
   padding: 0;
   position: relative;
+  left: 50%;
+  float: left;
 }
   
 #main-navbar ul li {
   display: block;
   margin-right: 20px;
+  float: left;
 }
   
 #main-navbar ul li a {
@@ -205,46 +208,49 @@ input[type="submit"]:hover {
   border-color: #610000;
 }
 
+.tour h2{
+  font-size: 22px;
+  margin-bottom: 10px;  
+}
+
+.tour h4 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.tour p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
 .datesoftour{	
-  background-color: white;	
-  text-align:left;	
-  margin: 20px;
-  padding: 20px;
+  background-color: white;		
+  margin-top: 20px;
+  padding: 10px;
 }
 
 .datesoftour h2 {
-  font-size: 14px;
   text-shadow: red 1px 10px;  
-}
-
-.datesoftour h4{
-  text-align: center;
-  margin: 30px;  
-}
-
-.datesoftour p {
-  font-size: 10px;
 }
 
 .movielist{
   background-color: #610000;	
-  text-align: center;	
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 .movielist h2 {
-  font-size: 14px;
   text-shadow: 1px 1px 2px white;
 }
 
 .location {
   background-color: white;	
-  text-align: center;	
+  margin-top: 20px;
+  padding: 10px;  
+  border-radius: 8px;
 }
 
 .location h2 {
-  font-size: 14px;
   text-shadow: 1px 1px 2px red;	
 }
 
