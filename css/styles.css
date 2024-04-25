@@ -200,12 +200,12 @@ input[type="submit"]:hover {
 .tour {
   border: 2px dotted;  
   border-radius: 8px;
-  padding: 5px;
+  padding: 20px;
   border-width: thick;
   border-color: #610000;
 }
 
-.datesoftour{
+.datesoftour{	
   background-color: white;	
   text-align:left;	
   margin: 20px;
